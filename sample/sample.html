@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/sample/css/layout.css">
+    <link rel="stylesheet" href="/sample/css/header.css">
+    <link rel="stylesheet" href="/sample/css/section.css">
+    <link rel="stylesheet" href="/sample/css/aside.css">
+    <link rel="stylesheet" href="/sample/css/footer.css">
+    <title>송하윤💕</title>
+</head>
+
+<body>
+    <div class="logo">
+        <a href="https://www.twitch.tv/songhayoon_"><img src="img/송하윤 이모티콘1.png" width="64" height="64"></a>
+    </div>
+    <!--헤더시작-->
+    <div class="header">
+        <header>
+
+            <a href="https://cheorwon.gwe.hs.kr/main.do">
+                ❤️송하윤 방송보기❤️
+            </a>
+        </header>
+    </div>
+
+    <!--콘텐츠부분-->
+    <div class="section">
+        <section>
+            <!-- Add a placeholder for the Twitch embed -->
+            <div id="twitch-embed"></div>
+
+            <!-- Load the Twitch embed script -->
+            <script src="https://player.twitch.tv/js/embed/v1.js"></script>
+
+            <!-- Create a Twitch.Player object. This will render within the placeholder div -->
+            <script type="text/javascript">
+                new Twitch.Player("twitch-embed", {
+                    channel: "songhayoon_",
+                    width: "1440",
+                    height: "780"
+                });
+            </script>
+        </section>
+    </div>
+    <!--사이드바-->
+    <div class="aside">
+        <aside>
+            <span>
+
+            </span>
+        </aside>
+    </div>
+    <!--풋터-->
+    <div class="footer">
+        <footer>
+            <a href="https://www.twitch.tv/settings/profile"><img src="img/트위치 아이콘.png" width="64"
+                    height="64"></a>
+            <a href="https://www.youtube.com/@songhayoon_/featured"><img src="img/유튜브 아이콘.png" width="64"
+                    height="64"></a>
+            <a href="https://www.instagram.com/s._.hayoon/"><img src="img/인스타그램 아이콘.png" width="64"
+                    height="64"></a>
+        </footer>
+    </div>
+</body>
+
+</html>
